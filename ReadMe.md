@@ -5,7 +5,7 @@ To execute the code, you must:
 1. Charge the datasets: UCI HAR, and WISDM, and put the correct path to the used datset (datasets are included in the Data directory).
 2. Choose the adequate "Preprocessing" part.
 
-For UCI HAR Dataset:
+## For UCI HAR Dataset:
 
 ```python
 print('No duplicates in our training data: {}'.format(sum(train.duplicated())))
@@ -26,7 +26,7 @@ train.columns = columns
 test.columns = columns
 ```
 
-## For UCI HAR Dataset:
+## For WISDM Dataset:
 ```python
 
 label_encode = LabelEncoder()
