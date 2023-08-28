@@ -1,4 +1,4 @@
-# <span style="color: red;">A CNN-MLP for Human Activity Recognition.</span>
+# <span style="color: red;">A CNN-MLP model for Human Activity Recognition.</span>
 
 To execute the code, you must:
 
