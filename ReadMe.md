@@ -24,8 +24,10 @@ columns = columns.str.replace('[-]', '')
 columns = columns.str.replace('[,]','')
 train.columns = columns
 test.columns = columns
+```python
 
 ## For UCI HAR Dataset:
+
 label_encode = LabelEncoder()
 df['activityLabel'] = label_encode.fit_transform(df['activity'].values.ravel())
 interpolation_fn = interp1d(df['activityLabel'] ,df['Z'], kind='linear')
