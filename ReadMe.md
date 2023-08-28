@@ -27,6 +27,7 @@ test.columns = columns
 ```
 
 ## For UCI HAR Dataset:
+```python
 
 label_encode = LabelEncoder()
 df['activityLabel'] = label_encode.fit_transform(df['activity'].values.ravel())
@@ -42,5 +43,6 @@ df_train['Y'] = (df_train['Y']-df_train['Y'].min())/(df_train['Y'].max()-df_trai
 df_train['Z'] = (df_train['Z']-df_train['Z'].min())/(df_train['Z'].max()-df_train['Z'].min())
 df_train
 ......
+```
 
 ##4. Execute the code regularly
