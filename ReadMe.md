@@ -1,8 +1,10 @@
 # <span style="color: red;">A CNN-MLP model for Human Activity Recognition.</span>
 
+WISDM dataset is included in the repository, and link to UCI HAR is included also in the descriptiopn part.
+
 To execute the code, you must:
 
-1. Charge the datasets: UCI HAR, and WISDM, and put the correct path to the used datset (datasets are included in the Data directory).
+1. Charge the datasets, and then put the correct path to the used one(datasets are included in the Data directory).
 2. Choose the adequate "Preprocessing" part.
 
 ## For UCI HAR Dataset:
