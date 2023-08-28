@@ -24,6 +24,7 @@ columns = columns.str.replace('[-]', '')
 columns = columns.str.replace('[,]','')
 train.columns = columns
 test.columns = columns
+....
 ```
 
 ## For WISDM Dataset:
